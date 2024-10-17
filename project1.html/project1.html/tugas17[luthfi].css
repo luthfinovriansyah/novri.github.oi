@@ -1,0 +1,90 @@
+div.ordered  div h3 {
+  background-color: #FD6346;
+  padding: 18px;
+  text-align: center;
+}
+.ordered {
+  box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.75);
+  
+  width: 300px;
+  margin: 0 10px 0 10px;
+  border-radius: 10px;
+}
+.all {
+  background-color:lightgray;
+  padding: 15px;
+}
+div.ordered div p {
+  padding: 15px;
+}
+div.unordered div h3 {
+  background-color:#FABB01;
+  padding: 18px;
+  text-align: center;
+}
+.unordered {
+  
+  box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.75);
+  width: 300px;
+  border-radius: 10px;
+  margin: 0 10px 0 10px;
+}
+.hai {
+  background-color: lightgray;
+  border-top: 2px solid #FABB01;
+  border-bottom: 2px solid #FABB01;
+}
+.all1 {
+  
+  padding: 15px;
+  list-style-type:circle;
+}
+.square {
+  list-style-type: square;
+  padding: 15px;
+}
+.circle {
+  list-style-type: disc;
+  padding: 15px;
+}
+.card1 {
+  justify-content: center;
+  display: flex;
+  padding: 0;
+}
+div.deskripsi div h3 {
+  background-color: #01A4EF;
+  padding: 18px;
+  text-align: center;
+
+}
+.deskripsi {
+ 
+  box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.75);
+  width: 300px;
+  margin: 0 10px 0 10px;
+  border-radius: 10px;
+}
+dd {
+  padding: 10px;
+}
+dt {
+  color: #BC1E30;
+  font-weight: bold;
+}
+.awal {
+  background: rgb(49,49,49);
+  background: linear-gradient(90deg, rgba(49,49,49,1) 0%, rgba(241,241,240,1) 50%, rgba(4,4,4,1) 100%);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 30px;
+}

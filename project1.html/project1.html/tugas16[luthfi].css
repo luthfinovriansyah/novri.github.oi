@@ -1,0 +1,36 @@
+img {
+    width: 50px;
+    height: 50px;
+}
+.menu-checkbox:checked ~ .menu {
+    display: block;
+}
+.menu {
+    display: none;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    left: 0px;
+    border-radius: 5px;
+}
+.menu ul {
+    list-style-type: none;
+}
+.menu ul li {
+    margin: 5px 0px;
+    padding: 5px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.menu ul li:hover {
+   background:bisque ;
+   color: beige;
+   margin: 10px;
+}
+.menu-checkbox{
+    display: none;
+}

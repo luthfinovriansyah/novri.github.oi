@@ -1,0 +1,71 @@
+.float-right {
+    float: right;
+    width: 150px;
+}
+.float-left {
+    float: left;
+    width: 150px;
+}
+.clear-both {
+    clear: both;
+    width: 250px;
+}
+.float1 {
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(25, 0, 255);
+}
+.float2 {
+    float: right;
+    width: 250px;
+    height: 250px;
+    background-color: violet;
+}
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+ul.navigasi {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+ul.navigasi li {
+    float: left;
+}
+ul.navigasi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.navigasi li a:hover {
+    background-color: #111;
+}
+.container {
+    width: 100%;
+    color: bisque;
+}
+.sidebar {
+    float: left;
+    width: 30%;
+    height: 100vw;
+    background-color: violet
+}
+.konten {
+    float: right;
+    width: 75%;
+    height: 100vw;
+    background-color: green;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+

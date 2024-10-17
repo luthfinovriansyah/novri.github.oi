@@ -1,0 +1,26 @@
+.img {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    padding: 20px;
+    position: ;
+}
+.menu {
+    position: fixed;
+    background-color: gray;
+    width: 100vw;
+    right: 0;
+    bottom: 0;
+}
+.ibu {
+  height: 400vw;
+  margin: auto;  
+  max-width: 300px;
+  text-align: center;
+}
+.induk {
+    height: 400vw;
+    margin: auto;  
+    max-width: 300px;
+    text-align: center;
+}

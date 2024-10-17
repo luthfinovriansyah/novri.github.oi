@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #flex-container {
+            display: flex;
+            flex-direction: row;
+        }
+        .flex-item {
+            flex-basis: 100%;
+            height: 100px;
+            margin: 4px;
+            background: #ec5453;
+            font-size: 60px;
+            color: white;
+            text-align: center;
+        }
+        #flex-reverse {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .flex-item {
+            flex-basis: 100%;
+            height: 100px;
+            margin: 4px;
+            background: #ec5453;
+            font-size: 60px;
+            color: white;
+            text-align: center;
+        }
+        #flex-justify {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        .flex-item-start {
+            width: 100px;
+            height: 100px;
+            margin: 4px;
+            background: lightgreen;
+            font-size: 60px;
+            color: white;
+            text-align: center;
+        }
+        #flex-end {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        .flex-item-end {
+            width: 100px;
+            height: 100px;
+            margin: 4px;
+            background: lightgreen;
+            font-size: 60px;
+            color: white;
+            text-align: center;
+        }
+        #flex-space {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .flex-item-space {
+            width: 100px;
+            height: 100px;
+            margin: 4px;
+            background: lightgreen;
+            font-size: 60px;
+            color: white;
+            text-align: center;
+        }
+        #flex-center {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .flex-item-center {
+            width: 100px;
+            height: 100px;
+            margin: 4px;
+            background: lightgreen;
+            font-size: 60px;
+            color: white;
+            text-align: center;
+        }
+        #flex-space-around {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .flex-item-space-around {
+            width: 100px;
+            height: 100px;
+            margin: 4px;
+            background: lightgreen;
+            font-size: 60px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--flexbox row-->
+    <div id="flex-container">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+    </div>
+    <!--flexbox row reverse-->
+    <div id="flex-reverse">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+     </div>
+     <!--flexbox-justify content flex start-->
+     <div id="flex-justify">
+        <div class="flex-item-start">1</div>
+        <div class="flex-item-start">2</div>
+        <div class="flex-item-start">3</div>
+        <div class="flex-item-start">4</div>
+        <div class="flex-item-start">5</div>
+     </div>
+      <!--flexbox-justify content  flex end-->
+      <div id="flex-end">
+        <div class="flex-item-end">1</div>
+        <div class="flex-item-end">2</div>
+        <div class="flex-item-end">3</div>
+        <div class="flex-item-end">4</div>
+        <div class="flex-item-end">5</div>
+     </div>
+     <!--flexbox-justify content  flex center-->
+     <div id="flex-center">
+        <div class="flex-item-center">1</div>
+        <div class="flex-item-center">2</div>
+        <div class="flex-item-center">3</div>
+        <div class="flex-item-center">4</div>
+        <div class="flex-item-center">5</div>
+     </div>
+      <!--flexbox-justify content  flex space-->
+      <div id="flex-space">
+        <div class="flex-item-space">1</div>
+        <div class="flex-item-space">2</div>
+        <div class="flex-item-space">3</div>
+        <div class="flex-item-space">4</div>
+        <div class="flex-item-space">5</div>
+     </div>
+      <!--flexbox-justify content  flex space-->
+      <div id="flex-space-around">
+        <div class="flex-item-space-around">1</div>
+        <div class="flex-item-space-around">2</div>
+        <div class="flex-item-space-around">3</div>
+        <div class="flex-item-space-around">4</div>
+        <div class="flex-item-space-around">5</div>
+     </div>
+</body>
+</html>
